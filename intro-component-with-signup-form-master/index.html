@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>component with sign up form</title>
+ 
+</head>
+<body>
+
+   <div class="container">
+      <div class="container__header">
+            <h1  class="container__header_title">Learn to code by watching others</h1>
+            <p class="container__header_text">  
+              See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+              but understanding how developers think is invaluable. 
+            </p>
+      </div>
+      <div class="container__form">
+          <div class="container__form_header">
+            <div class="container__form_header_trial"><p><h3>Try it free 7 days</h3> then $20/mo. thereafter</p></div>
+          </div>
+          <div class="container__form_main">
+              <div class="container__form_main_input inputborder1">
+                  <div class="container__form_main_input_style"><input class="info-firstname" type="text" placeholder="First Name "><img class="hide firstnameerror" src="./images/icon-error.svg" alt=""></div>
+                  
+              </div>
+              <div class="container__form_main_input_error_first redstyle hide"><p>First Name cannot be empty</p></div>
+              <div class="container__form_main_input inputborder2">
+                <div class="container__form_main_input_style"><input class="info-lastname" type="text" placeholder="Last Name "><img class="hide lastnameerror" src="./images/icon-error.svg" alt=""></div>
+                
+            </div>
+            <div class="container__form_main_input_error_last redstyle hide"><p>Last Name cannot be empty</p></div>
+            <div class="container__form_main_input inputborder3">
+              <div class="container__form_main_input_style"><input class="info-email" type="text" placeholder="Email Address"><img class="hide emailerror" src="./images/icon-error.svg" alt=""></div>
+              
+            </div>
+            <div class="container__form_main_input_error_email redstyle hide"><p>Looks like this is not an email</p></div>
+            <div class="container__form_main_input inputborder4">
+            <div class="container__form_main_input_style"><input class="info-password" type="text" placeholder=" Password"><img class="hide passworderror" src="./images/icon-error.svg" alt=""></div>
+            
+           </div>
+           <div class="container__form_main_input_error_password redstyle hide"><p>Password cannot be empty</p></div>
+           <div class="container__form_main_btn">
+               <button><h3>Claim your free trial</h3> </button>
+           </div>
+           <p  class="container__form_main_disclaimer">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+          </div>
+      </div>
+   </div>  
+  
+ <script src="script.js"></script>
+</body>
+</html>
